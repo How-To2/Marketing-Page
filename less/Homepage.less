@@ -1,70 +1,4 @@
-//Variable
-
-@orange: #FF9505;
-@red: #EC4E20;
-@black: black;
-@darkgrey: #353531;
-@blue: #016FB9;
-
-@ipad: ~"(max-width: 500px)";
-
-//Mixins
-
-.mainfont{
-    font-size: 4rem;
-    color: @darkgrey;
-
-}
-
-.displayFlex(){
-    display:flex;
-    justify-content:space-evenly;
-}
-
-
 //CSS
-
-
-html{
-    padding: 2%;
-    background-color:peachpuff;
-    max-width:100%;
-    font-size: 62.5%;
-    font-family: Comic Sans MS, Comic Sans, cursive;
-}
-
-header{
-    .displayFlex();
-    flex-direction: row;
-    align-items: center;
-    border-bottom: 3px dashed @darkgrey;
-
-    @media @ipad{
-        flex-direction:column;
-    }
-}
-
-nav {
-    font-size: 2.8rem;
-    .displayFlex();
-    width: 50%;
-    @media @ipad{
-        flex-direction:column;
-        align-items:center;
-        font-size:2rem;
-        margin-top:-10%;
-    }
-    a {
-      text-decoration: none;
-      color: @blue;
-      &:hover {
-        color: @darkgrey;
-      }
-      @media @ipad{
-          padding-top: 2%;
-      }
-    }
-  }
 
   .introduction{
       text-align:center;
@@ -137,29 +71,5 @@ nav {
             border-radius: 20px;
         }
     }
-    
-}
-
-footer{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    padding-top: 5%;
-    button{
-        width: 20%;
-        padding-top: 1%;
-        padding-bottom: 1%;
-        border-radius: 20px;
-        font-size: 3rem;
-        background-color:@red;
-
-        &:hover{
-            color:@blue;
-            background-color:grey;
-        }
-    }
-    p{
-        text-align: center;
-        font-size: 1.5rem;
-    }
+       
 }
