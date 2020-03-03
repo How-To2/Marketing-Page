@@ -1,0 +1,137 @@
+html {
+  padding: 2%;
+  background-color: peachpuff;
+  max-width: 100%;
+  font-size: 62.5%;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+header {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 3px dashed #ec4e20;
+}
+@media (max-width:500px) {
+  header {
+    flex-direction: column;
+  }
+}
+nav {
+  font-size: 2.8rem;
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+@media (max-width:500px) {
+  nav {
+    font-size: 2rem;
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -10%;
+  }
+}
+nav a {
+  text-decoration: none;
+  color: #016fb9;
+}
+nav a:hover {
+  color: #353531;
+}
+@media (max-width:500px) {
+  nav a {
+    padding-top: 2%;
+  }
+}
+.Introduction {
+  text-align: center;
+}
+.Introduction h1 {
+  font-size: 3rem;
+}
+.Introduction h5 {
+  font-size: 1.8rem;
+}
+.content1 {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+@media (max-width:500px) {
+  .content1 {
+    flex-direction: column;
+  }
+}
+.content1 p {
+  width: 100%;
+}
+.tech {
+  width: 30%;
+  border-radius: 20px;
+}
+@media (max-width:500px) {
+  .tech {
+    width: 100%;
+  }
+}
+.content2 {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+  align-content: center;
+  border-bottom: 3px dashed #ec4e20;
+  padding-bottom: 50px;
+}
+@media (max-width:500px) {
+  .content2 {
+    flex-direction: column;
+  }
+}
+.content2 p {
+  width: 100%;
+}
+p {
+  width: 20%;
+  font-size: 1.5rem;
+  text-align: left;
+}
+.content3 {
+  margin-top: 50px;
+  padding-bottom: 4.2%;
+}
+.content3 p {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.content3 .imagesiii {
+  display: flex;
+  justify-content: space-evenly;
+}
+.content3 .imagesiii .last1 {
+  width: 20%;
+  border-radius: 20px;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer button {
+  width: 20%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 20px;
+  font-size: 3rem;
+  background: #ec4e20;
+}
+footer button:hover {
+  color: blue;
+  background: grey;
+}
+footer p {
+  text-align: center;
+}
