@@ -1,0 +1,46 @@
+h1 {
+  font-size: 3rem;
+}
+h5 {
+  font-size: 1.5rem;
+}
+.headshot2 {
+  width: 40%;
+  border-radius: 50%;
+  margin-top: 3%;
+  @media @ipad {
+    width: 90%;
+  }
+}
+.headshot {
+  width: 40%;
+  border-radius: 50%;
+  margin-top: 3%;
+}
+.first2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-bottom: 2px dashed @darkgrey;
+  padding-bottom: 1px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  padding-bottom: 3%;
+  line-height: 1.6;
+  @media @ipad {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.firstProfile {
+  .sameflex(flex, column, center);
+}
+.secondProfile {
+  .sameflex(flex, column, center);
+}
+.second1 {
+  .sameflex(flex, column, center);
+  width: 45%;
+  margin-left: 27.5%;
+  line-height: 1.6;
+}

@@ -1,32 +1,35 @@
-header{
+header {
   .displayFlex();
   flex-direction: row;
   align-items: center;
   border-bottom: 3px dashed @darkgrey;
 
-  @media @ipad{
-      flex-direction:column;
+  @media @ipad {
+    flex-direction: column;
   }
 }
 
 nav {
-    font-size: 2.8rem;
-    .displayFlex();
-    width: 50%;
-    @media @ipad{
-        flex-direction:column;
-        align-items:center;
-        font-size:2rem;
-        margin-top:-10%;
+  font-size: 2.8rem;
+  .displayFlex();
+  width: 50%;
+
+  @media @ipad {
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: -10%;
+    margin-bottom: 23.5px;
+  }
+
+  a {
+    text-decoration: none;
+    color: @blue;
+    &:hover {
+      color: @darkgrey;
     }
-    a {
-      text-decoration: none;
-      color: @blue;
-      &:hover {
-        color: @darkgrey;
-      }
-      @media @ipad{
-          padding-top: 2%;
-      }
+    @media @ipad {
+      padding-top: 2%;
     }
   }
+}
