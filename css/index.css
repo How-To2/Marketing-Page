@@ -345,12 +345,20 @@ h5 {
   line-height: 1.6;
 }
 h2 {
-  font-size: 4rem;
+  font-size: 3rem;
+  line-height: 1.6;
   text-align: center;
   padding-top: 5%;
 }
 form {
-  background-image: url(images/heart.jpg);
+  background-image: url(../images/heart.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width: 500px) {
+  form {
+    background-position-x: 50%;
+  }
 }
 .email {
   display: flex;
@@ -395,12 +403,41 @@ form label {
   padding-top: 2%;
   padding-bottom: 2%;
 }
-form .send {
+form .submit {
   width: 20%;
   height: 50px;
   margin: 0 auto;
   margin-top: 5%;
   border-radius: 25px;
+  margin-bottom: 2%;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-size: 2rem;
+  background-color: #FF9505;
+}
+form .submit:hover {
+  background-color: #353531;
+  color: #EC4E20;
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 40%;
+  margin: 0 auto;
+}
+@media (max-width: 500px) {
+  ul {
+    width: 50%;
+  }
+}
+ul li {
+  padding: 5%;
+}
+a {
+  color: #EC4E20;
+}
+a:hover {
+  color: #353531;
 }
 footer {
   border-top: 3px dashed #353531;
