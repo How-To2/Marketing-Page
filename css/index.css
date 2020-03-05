@@ -344,3 +344,65 @@ h5 {
   margin-left: 27.5%;
   line-height: 1.6;
 }
+h2 {
+  font-size: 4rem;
+  text-align: center;
+  padding-top: 5%;
+}
+form {
+  background-image: url(images/heart.jpg);
+}
+.email {
+  display: flex;
+  margin: 0 auto;
+  width: 20%;
+  border-radius: 25%;
+  padding: 5% 0;
+}
+@media (max-width: 500px) {
+  .email {
+    width: 50%;
+  }
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2.5rem;
+  text-align: center;
+}
+form input {
+  width: 25%;
+  min-height: 25px;
+  margin: 0 auto;
+}
+@media (max-width: 500px) {
+  form input {
+    width: 50%;
+  }
+}
+form textarea {
+  width: 25%;
+  min-height: 200px;
+  margin: 0 auto;
+}
+@media (max-width: 500px) {
+  form textarea {
+    width: 50%;
+  }
+}
+form label {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+form .send {
+  width: 20%;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 5%;
+  border-radius: 25px;
+}
+footer {
+  border-top: 3px dashed #353531;
+  margin-top: 3%;
+}
