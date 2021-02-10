@@ -1,3 +1,5 @@
+DEPLOYED: https://tharshanandcole.netlify.app/
+
 # Marketing-Page
 
 This Marketing Page for our How-To Webiste consists of three live pages.  We have a Landing Page that was created by Cole Wilkison
